@@ -52,6 +52,7 @@ window.addEventListener('load', () => {
         // clear the input field
         input.value = '';
 
+        // TO DATABASE
         // NOW this is where we push the todo variable to the firebaseTodo db reference
         firebaseTodo.push(todo);
         // test print the input
@@ -88,6 +89,9 @@ window.addEventListener('load', () => {
             var todosall = todos[i];
             // test print
             console.log(todosall);
+
+            // start building the list elements 
+                // in the for lopp for each one
         }
     }
 
